@@ -1,0 +1,14 @@
+<main>
+    Hightlighted region: {{highlightedRegionName}} <br />
+    <div class="background-image">
+        <img class="leftJustified" app-map-mouse-move app-map-click width="{{imgWidth}}" height="{{imgHeight}}" [src]="highlightedRegionFileName" alt="galactic-map.jpg" />
+        <!-- I don't think this can be done with multiple images.
+         So possibly I can change the source of the main image between different pre-highlighted version using [src] instead of src.
+         <div class="overlay-image">
+            <img src="highlights/Hightlight_DeepCore.png" /
+        </div>  -->
+        <map-selection-data class="rightJustified"></map-selection-data>
+    </div>
+    <!-- 2000 x 2996 -->
+    <!-- <router-outlet /> -->
+</main>

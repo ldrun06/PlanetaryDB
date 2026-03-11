@@ -1,0 +1,12 @@
+<p>Coordinates selected: {{coords}}</p>
+@if (selectedRegion != ""){
+    <p>Selected Region: {{selectedRegion}}</p>
+}
+<p>Name: {{selectedPlanet.name}} <br /></p>
+<p>Dominant species: {{selectedPlanet.dominantSpecies}} <br /></p>
+<p>Galactic region: {{selectedPlanet.region}} <br /></p>
+<p>Population size: {{selectedPlanet.planetDetails.popSize}} <br /> </p> 
+@if (selectedPlanet.id != 0){
+    <p><a [routerLink]="['/details-page', selectedPlanet.id]">World Details</a></p>
+}
+<img class="rightJustified" [src]="selectedPlanet.photo" alt="" />

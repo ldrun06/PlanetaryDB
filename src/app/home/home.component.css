@@ -1,0 +1,14 @@
+.leftJustified{
+    float:left;
+}
+.rightJustified{
+    float:right;
+}
+.background-image{
+    position: relative;
+}
+.overlay-image{
+    position: absolute;
+    top: -25px;
+    left: -21px;
+}
