@@ -1,6 +1,7 @@
 # PlanetaryDB
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.2.
+A simple mouse-hovering graphic shows you the main regions of the Galaxy. Some links give you information about a small number of planets.
 
 ## Development server
 
